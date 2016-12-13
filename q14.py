@@ -1,4 +1,4 @@
-s = raw_input("Please enter a sentence include: ")
+s = raw_input("Please enter a sentence include Upper and lower case: ")
 d = {"UPPER CASE" : 0 , "LOWER CASE" : 0}
 for c in s:
 	if c.isupper():
